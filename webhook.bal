@@ -10,6 +10,7 @@ listener asgardeo:Listener webhookListener =  new(config,httpListener);
 service asgardeo:RegistrationService on webhookListener {
   
     remote function onAddUser(asgardeo:AddUserEvent event ) returns error? {
+      // test comment
       log:printInfo("On Add suer", event = event);
     }
     remote function onConfirmSelfSignup(asgardeo:GenericEvent event ) returns error? {
