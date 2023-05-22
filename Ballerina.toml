@@ -1,9 +1,9 @@
 [build-options]
-  observabilityIncluded = true
+observabilityIncluded = true
 
 [package]
-  distribution = "2201.4.1"
-  name = "www"
-  org = "shaf65"
-  version = "0.1.0"
+distribution = "2201.5.0"
+name = "www"
+org = "shaf65"
+version = "0.1.0"
 
